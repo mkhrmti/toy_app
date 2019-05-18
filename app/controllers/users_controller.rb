@@ -4,7 +4,10 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    #app/views/リソース名/アクション(メソッド)名.html.erb
+    #app/views/users/index.html.erb
     @users = User.all
+    #@~はインスタンス変数という
   end
 
   # GET /users/1
